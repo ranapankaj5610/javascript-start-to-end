@@ -4,8 +4,8 @@ const score = 400
 const balance = new Number(100)
 // console.log(balance);
 
-// console.log(balance.toString().length);---> length is a propert of string
-// console.log(balance.toFixed(1));
+// console.log(balance.toString().length);---> length is a property of string which return the length of the string.
+console.log(balance.toFixed(1)); //-->100.0
 
 const otherNumber = 123.8966
 
@@ -28,7 +28,8 @@ console.log(Math.random());         //-----> random value between 0 and 1
 console.log((Math.random()*10) + 1);  //----> Random value between 1 and 10 but that can be the decimal as well
 console.log(Math.floor(Math.random()*10) + 1);  //-----> Random Value between 1 and 10 only integers now as we use the floor
 
+
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min) //----> It will give the always give the random value between min and max
+console.log(Math.floor(Math.random() * (max - min + 1)) + min) //----> It will always give the random value between min and max.

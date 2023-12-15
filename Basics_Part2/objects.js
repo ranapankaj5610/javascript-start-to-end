@@ -8,7 +8,7 @@ const mySym = Symbol("key1") //Symbol datatype declaration
 // Create an object
 const JsUser = { 
     name: "Pankaj",
-    "full name": "Pankaj Choudhary",
+    "full name": "Pankaj Rana",
     [mySym]: "mykey1", //This is how we set key value pair for symbol data type.
     age: 24,
     location: "dehradun",
@@ -105,7 +105,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course //object destructuring
 
 // console.log(courseInstructor);
 console.log(instructor);

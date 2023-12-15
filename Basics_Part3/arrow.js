@@ -43,7 +43,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "pankaj"}) //this is how we return an object in arrow function without using return keyword. if it is wrpped inside () braces we dont need return.
+const addTwo = (num1, num2) => ({username: "pankaj"}) //this is how we return an object in arrow function without using return keyword. if it is wrapped inside () braces we dont need return.
 
 
 

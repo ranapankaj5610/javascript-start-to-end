@@ -8,12 +8,12 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);   //I
 
 const gameName = new String('rana-cricket') // String is a class we can create a object of it.
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName[0]);
+console.log(gameName.__proto__);
 
 
-// console.log(gameName.length);   // length is property of string which give us the lenegth of the string.
-// console.log(gameName.toUpperCase());  // function to convert the string character to uppercase.
+console.log(gameName.length);   // length is property of string which give us the lenegth of the string.
+console.log(gameName.toUpperCase());  // function to convert the string character to uppercase.
 console.log(gameName.charAt(2));  // give us the value at 2nd index.
 console.log(gameName.indexOf('t'));  // give the index value of passed argument.
  

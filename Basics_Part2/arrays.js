@@ -4,24 +4,24 @@ const myArr = [0, 1, 2, 3, 4, 5] //way to define an array
 const myHeors = ["shaktiman", "naagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4) //we can cretate an object of array.
-// console.log(myArr[1]); 
+console.log(myArr[1]); 
 
 // Array methods
 
-// myArr.push(6) //add value in end of an array
-// myArr.push(7) 
-// myArr.pop() //remove value from end of an array
+myArr.push(6) //add value in end of an array
+myArr.push(7) 
+myArr.pop() //remove value from end of an array
 
-// myArr.unshift(9) //add value in start of an array and shift the others element to right.
-// myArr.shift() //remove element from start of the array.
+myArr.unshift(9) //add value in start of an array and shift the others element to right.
+myArr.shift() //remove element from start of the array.
 
-// console.log(myArr.includes(9)); //return true if array include the given element
-// console.log(myArr.indexOf(3)); //return index of the passed value
+console.log(myArr.includes(9)); //return true if array include the given element
+console.log(myArr.indexOf(3)); //return index of the passed value
 
-// const newArr = myArr.join() // The join() method of Array instances creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string
+const newArr = myArr.join() // The join() method of Array instances creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string
 
-// console.log(myArr);  
-// console.log( newArr);
+console.log(myArr);  
+console.log( "new array "+newArr);
 
 
 // slice, splice
@@ -34,7 +34,7 @@ console.log(myn1);
 console.log("B ", myArr);
 
 
-const myn2 = myArr.splice(1, 3) //return array from index 1 to 3 but the difference is it manipulate the original array.
+const myn2 = myArr.splice(1, 3) //return array from index 1 to 3 but the difference is, splice manipulate the original array.
 console.log("C ", myArr);
 console.log(myn2);
 
@@ -59,13 +59,14 @@ const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity) //It will return an array with all the elements inside array with single single. means array inside array now convert to one array only.
 
+
 console.log(real_another_array);
 
 
 
-console.log(Array.isArray("Hitesh")) //return true false is it an array or not.
-console.log(Array.from("Hitesh")) //return an array 
-console.log(Array.from({name: "hitesh"})) // it will return an empty array because we have to mention that which array we need, array of keys or array of values.
+console.log(Array.isArray("Pankaj")) //return true false is it an array or not.
+console.log(Array.from("Pankaj")) //return an array -->['p','a','n'....]
+console.log(Array.from({name: "pankaj"})) // it will return an empty array because we have to mention that which array we need, array of keys or array of values.
 
 
 let score1 = 100
